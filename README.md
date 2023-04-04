@@ -5,3 +5,5 @@ OASIS-hippocampus.csv is the data set containing both the test and train set of 
 
 scatterplot_NBC.py is the hippocampal volume training data set as a 2D scatterplot (right and left hippocampal volume as the two axes). Healthy brains and Dementia positive brains are represented as differennt colors. Heathy brains are green and Dementia positive brains are red on the scatterplot. 
 
+Densityplot_NBC.py is a density plot of both the right and left hippocampal volumes. Healthy brains are colored green in the density plot and Dementia positive brains are colored red. I created density plots for the data to show the distribution of the data for each class. Naive Bayes classification assumes the input features are normally distributed, so density plots can help check if this assumption holds true. If the features are not normally distributed, the classifier may not work as expected in my code "classifier_NBC.py".
+
